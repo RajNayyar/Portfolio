@@ -1,0 +1,269 @@
+{
+  "brand": {
+    "name": "Rajpreet"
+  },
+  "about": {
+    "name": "Rajpreet Singh Nayyar",
+    "kicker": "Hello, I'm",
+    "title": "Senior Software Engineer \u2022 C#/.NET \u2022 Cloud-Native Systems",
+    "bio": "I build clean, reliable backend systems and scalable cloud services. I enjoy pragmatic architectures, performance wins, and clean code that stays clean.",
+    "image": "assets/rajpreet.svg",
+    "resumeUrl": "assets/Rajpreet-Singh-Nayyar-Resume.pdf",
+    "resumeFileName": "Rajpreet-Singh-Nayyar-Resume.pdf"
+  },
+  "quickLinks": [
+    {
+      "type": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/"
+    },
+    {
+      "type": "github",
+      "label": "GitHub",
+      "url": "https://github.com/"
+    },
+    {
+      "type": "email",
+      "label": "Email",
+      "url": "mailto:rajpreet@example.com"
+    }
+  ],
+  "work": {
+    "timeline": [
+      {
+        "period": "2022 \u2014 Present",
+        "location": "Plano, TX \u2022 USA",
+        "role": "Senior Software Engineer",
+        "company": "JPMorgan Chase & Co.",
+        "companyLogo": "assets/logo-jpmc.svg",
+        "team": "Payments / Platform",
+        "map": {
+          "lat": 33.0198,
+          "lon": -96.6989,
+          "zoom": 11,
+          "caption": "Plano, Texas"
+        },
+        "achievements": [
+          "Designed and shipped resilient .NET services with strong observability (logs, metrics, tracing).",
+          "Reduced latency and improved throughput by optimizing critical paths and database access patterns.",
+          "Led technical design reviews, improved code quality, and mentored peers on clean code practices."
+        ]
+      },
+      {
+        "period": "2020 \u2014 2022",
+        "location": "India",
+        "role": "Software Engineer",
+        "company": "Company Name",
+        "companyLogo": "assets/logo-company1.svg",
+        "team": "Backend / APIs",
+        "map": {
+          "lat": 28.6139,
+          "lon": 77.209,
+          "zoom": 10,
+          "caption": "Delhi, India"
+        },
+        "achievements": [
+          "Built REST APIs and background processing pipelines for high-volume workloads.",
+          "Improved reliability with idempotency, retries, and better error handling across integrations.",
+          "Collaborated closely with product and QA to deliver features in fast cycles."
+        ]
+      },
+      {
+        "period": "2018 \u2014 2020",
+        "location": "India",
+        "role": "Software Engineer",
+        "company": "Company Name",
+        "companyLogo": "assets/logo-company2.svg",
+        "team": "Full Stack",
+        "map": {
+          "lat": 30.7333,
+          "lon": 76.7794,
+          "zoom": 11,
+          "caption": "Chandigarh, India"
+        },
+        "achievements": [
+          "Developed features across UI and services, focusing on maintainable, testable code.",
+          "Implemented CI/CD improvements to reduce release friction and speed up delivery.",
+          "Created internal tooling to streamline developer workflows."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "groups": [
+      {
+        "title": "Languages",
+        "maxRating": 5,
+        "items": [
+          {
+            "name": "C#",
+            "rating": 5
+          },
+          {
+            "name": "Java",
+            "rating": 3
+          },
+          {
+            "name": "Python",
+            "rating": 3
+          },
+          {
+            "name": "JavaScript",
+            "rating": 4
+          },
+          {
+            "name": "SQL",
+            "rating": 4
+          },
+          {
+            "name": "HTML/CSS",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "maxRating": 5,
+        "items": [
+          {
+            "name": ".NET Core / ASP.NET",
+            "rating": 5
+          },
+          {
+            "name": "Angular",
+            "rating": 3
+          },
+          {
+            "name": "Node.js",
+            "rating": 3
+          },
+          {
+            "name": "xUnit/NUnit",
+            "rating": 4
+          }
+        ]
+      },
+      {
+        "title": "Tools & Cloud",
+        "maxRating": 5,
+        "items": [
+          {
+            "name": "AWS (ECS/EKS/Lambda)",
+            "rating": 4
+          },
+          {
+            "name": "Docker",
+            "rating": 4
+          },
+          {
+            "name": "RabbitMQ",
+            "rating": 4
+          },
+          {
+            "name": "Kafka",
+            "rating": 3
+          },
+          {
+            "name": "CI/CD (GitHub Actions/Jenkins)",
+            "rating": 4
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "title": "Virtual Traveler Map",
+        "tagline": "Interest-driven travel heatmap experience",
+        "description": "An interactive map where users enter destination + dates and get personalized hotel/resort/activity recommendations.",
+        "image": "assets/project-travel.svg",
+        "links": [
+          {
+            "label": "Repo",
+            "url": "https://github.com/"
+          }
+        ]
+      },
+      {
+        "title": "Invisible Wallet",
+        "tagline": "Smart credit-card recommendation helper",
+        "description": "A concept extension that recommends the best card based on merchant category and rewards.",
+        "image": "assets/project-wallet.svg",
+        "links": [
+          {
+            "label": "Case Study",
+            "url": "https://example.com"
+          }
+        ]
+      },
+      {
+        "title": "Meeting Whisperer",
+        "tagline": "Notes + action items from meetings",
+        "description": "A prototype to extract structured notes and action items from meeting transcripts with a clean UI.",
+        "image": "assets/project-meeting.svg",
+        "links": []
+      }
+    ]
+  },
+  "educationAndCertifications": {
+    "items": [
+      {
+        "org": "AWS",
+        "logo": "assets/logo-aws.svg",
+        "title": "AWS Certified Solutions Architect \u2014 Associate",
+        "year": "2025",
+        "description": "Core AWS architecture, security, networking, and cost-optimized design."
+      },
+      {
+        "org": "University",
+        "logo": "assets/logo-university.svg",
+        "title": "B.Tech / Bachelor\u2019s Degree",
+        "year": "2018",
+        "description": "Computer Science / Information Technology (edit as needed)."
+      }
+    ]
+  },
+  "contact": {
+    "emailTo": "rajpreet@example.com",
+    "details": [
+      {
+        "type": "phone",
+        "label": "Phone",
+        "value": "+1 (xxx) xxx-xxxx",
+        "url": "tel:+10000000000"
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "value": "rajpreet@example.com",
+        "url": "mailto:rajpreet@example.com"
+      },
+      {
+        "type": "linkedin",
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/your-handle",
+        "url": "https://www.linkedin.com/"
+      },
+      {
+        "type": "instagram",
+        "label": "Instagram",
+        "value": "@yourhandle",
+        "url": "https://www.instagram.com/"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "value": "github.com/your-handle",
+        "url": "https://github.com/"
+      },
+      {
+        "type": "website",
+        "label": "Website",
+        "value": "yourdomain.com",
+        "url": "https://example.com"
+      }
+    ]
+  },
+  "footerText": "\u00a9 2025 Rajpreet Singh Nayyar"
+}

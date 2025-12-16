@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rajpreet Singh Nayyar — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header id="siteHeader" class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#about" aria-label="Go to About">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span id="brandName">Rajpreet</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="themeToggle" id="themeToggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+          <span class="themeToggle__icon" aria-hidden="true"></span>
+          <span class="themeToggle__label" id="themeToggleLabel">Dark</span>
+        </button>
+
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav__list" id="navList">
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#work">Work</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#projects">Projects</a></li>
+          <li><a class="nav__link" href="#education">Education</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="about" class="section section--hero">
+      <div class="container hero">
+        <div class="hero__left">
+          <p class="kicker" id="aboutKicker">Hello, I'm</p>
+          <h1 class="hero__title" id="aboutName">Rajpreet Singh Nayyar</h1>
+          <p class="hero__subtitle" id="aboutTitle">Senior Software Engineer • C#/.NET • Cloud-Native Systems</p>
+          <p class="hero__desc" id="aboutBio"></p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" id="resumeBtn" href="#" download>Download Resume</a>
+            <a class="btn btn--ghost" href="#work">View Work</a>
+          </div>
+
+          <div class="hero__quick" id="heroQuickLinks" aria-label="Quick links"></div>
+        </div>
+
+        <div class="hero__right">
+          <div class="portrait">
+            <img id="aboutImage" alt="Rajpreet portrait" />
+            <div class="portrait__ring" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Work</h2>
+          <p class="section__subtitle">Text on one side, map on the other — alternating by role.</p>
+        </div>
+
+        <div class="timeline2" id="workTimeline" aria-label="Work timeline"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Skills</h2>
+          <p class="section__subtitle">Grouped by category with quick self-ratings.</p>
+        </div>
+
+        <div class="skillGrid" id="skillsGrid" aria-label="Skills list"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Projects</h2>
+          <p class="section__subtitle">A few things I’ve built and explored.</p>
+        </div>
+
+        <div class="cards" id="projectsGrid" aria-label="Projects"></div>
+      </div>
+    </section>
+
+    <section id="education" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Education & Certifications</h2>
+          <p class="section__subtitle">Learning that backs the craft.</p>
+        </div>
+
+        <div class="eduGrid" id="educationGrid" aria-label="Education and certifications"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Contact</h2>
+          <p class="section__subtitle">Drop a note — I’ll reply soon.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__left">
+            <div class="contactCards" id="contactCards" aria-label="Contact details"></div>
+          </div>
+
+          <div class="contact__right">
+            <div class="card card--pad">
+              <h3 class="card__title">Send me a message</h3>
+              <p class="card__subtitle">Opens your email client (no backend needed).</p>
+
+              <form id="contactForm" class="form">
+                <label class="field">
+                  <span class="field__label">Your name</span>
+                  <input class="field__input" id="fromName" type="text" autocomplete="name" placeholder="e.g., John Doe" />
+                </label>
+
+                <label class="field">
+                  <span class="field__label">Your email</span>
+                  <input class="field__input" id="fromEmail" type="email" autocomplete="email" placeholder="e.g., john@email.com" />
+                </label>
+
+                <label class="field">
+                  <span class="field__label">Message</span>
+                  <textarea class="field__input field__input--area" id="message" rows="6" placeholder="Write your message..."></textarea>
+                </label>
+
+                <button class="btn btn--primary" type="submit">Open Email Draft</button>
+                <p class="hint" id="contactHint"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span id="footerText">© <span id="year"></span> Rajpreet Singh Nayyar</span>
+        <a class="footer__top" href="#about">Back to top</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
